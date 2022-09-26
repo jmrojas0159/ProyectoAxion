@@ -1,0 +1,619 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="BankStatementMock" xml:space="preserve">
+    <value>
+      {
+  "resultado": {
+    "codigo": 100,
+    "mensaje": "Transaccion exitosa"
+  },
+  "numeroCuenta": null,
+  "saldoInicialAcumulado": 1025951.1,
+  "saldoFinalAcumulado": 1037707.02,
+  "vlrAdicionesAcumulado": 0,
+  "vlrRetirosAcumulado": 0,
+  "vlrRndNetosAcumulado": 0,
+  "rtaCliente30Dias": -3.89,
+  "rtaCliente60Dias": 2.81,
+  "rtaCliente180Dias": 1.54,
+  "rtaCliente360Dias": 0,
+  "rtaClienteYearAct": 2.79,
+  "rtaCliente2Year": 0,
+  "saldoVlrUtilBruta": null,
+  "saldoVlrPerdBruta": null,
+  "saldoVlrUtilPerdNeta": null,
+  "listadoSaldos": [
+    {
+      "idFondo": 8001476408,
+      "saldoTotal": 91276.42,
+      "saldoDisponibleSinPenalidad": 0,
+      "saldoDisponibleConPenalidad": 0,
+      "valorPenalidadTotal": 0,
+      "valorUnidad": 2853137.974118,
+      "fechaRentabilidad": null,
+      "porcentajeRentabilidad": 0,
+      "rentabilidad30Dias": 0,
+      "rentabilidad60Dias": 0,
+      "rentabilidad90Dias": 0,
+      "rentabilidad180Dias": 0,
+      "rentabilidad365Dias": 0,
+      "rentabilidadAnoCorrido": 0,
+      "rentabilidadDosAnos": 0,
+      "saldoFinal": 91377.84,
+      "valorUnidadInicial": 2853137.97411787,
+      "valorUnidadFinal": 2856124.95920643,
+      "valorSaldoInicialUnidades": 0.0319915899,
+      "valorSaldoFinalUnidades": 0.03199364219,
+      "valorTotalAdiciones": 0,
+      "valorTotalRetiros": 0,
+      "valorUtilidadBrutaDia": 0,
+      "valorPerdidaBrutaDia": 0
+    },
+    {
+      "idFondo": 8001943632,
+      "saldoTotal": 247401.99,
+      "saldoDisponibleSinPenalidad": 0,
+      "saldoDisponibleConPenalidad": 0,
+      "valorPenalidadTotal": 0,
+      "valorUnidad": 2649.789898,
+      "fechaRentabilidad": null,
+      "porcentajeRentabilidad": 0,
+      "rentabilidad30Dias": 0,
+      "rentabilidad60Dias": 0,
+      "rentabilidad90Dias": 0,
+      "rentabilidad180Dias": 0,
+      "rentabilidad365Dias": 0,
+      "rentabilidadAnoCorrido": 0,
+      "rentabilidadDosAnos": 0,
+      "saldoFinal": 247947.09,
+      "valorUnidadInicial": 2649.78989801,
+      "valorUnidadFinal": 2655.28962014,
+      "valorSaldoInicialUnidades": 93.36664396894,
+      "valorSaldoFinalUnidades": 93.37854828315,
+      "valorTotalAdiciones": 0,
+      "valorTotalRetiros": 0,
+      "valorUtilidadBrutaDia": 0,
+      "valorPerdidaBrutaDia": 0
+    },
+    {
+      "idFondo": 8300043201,
+      "saldoTotal": 50599.88,
+      "saldoDisponibleSinPenalidad": 0,
+      "saldoDisponibleConPenalidad": 0,
+      "valorPenalidadTotal": 0,
+      "valorUnidad": 2481.201875,
+      "fechaRentabilidad": null,
+      "porcentajeRentabilidad": 0,
+      "rentabilidad30Dias": 0,
+      "rentabilidad60Dias": 0,
+      "rentabilidad90Dias": 0,
+      "rentabilidad180Dias": 0,
+      "rentabilidad365Dias": 0,
+      "rentabilidadAnoCorrido": 0,
+      "rentabilidadDosAnos": 0,
+      "saldoFinal": 50827.02,
+      "valorUnidadInicial": 2481.20187461,
+      "valorUnidadFinal": 2508.42751639,
+      "valorSaldoInicialUnidades": 20.39329428121,
+      "valorSaldoFinalUnidades": 20.26250296965,
+      "valorTotalAdiciones": 0,
+      "valorTotalRetiros": 0,
+      "valorUtilidadBrutaDia": 0,
+      "valorPerdidaBrutaDia": 0
+    },
+    {
+      "idFondo": 8300462682,
+      "saldoTotal": 59496.12,
+      "saldoDisponibleSinPenalidad": 0,
+      "saldoDisponibleConPenalidad": 0,
+      "valorPenalidadTotal": 0,
+      "valorUnidad": 4313.505233,
+      "fechaRentabilidad": null,
+      "porcentajeRentabilidad": 0,
+      "rentabilidad30Dias": 0,
+      "rentabilidad60Dias": 0,
+      "rentabilidad90Dias": 0,
+      "rentabilidad180Dias": 0,
+      "rentabilidad365Dias": 0,
+      "rentabilidadAnoCorrido": 0,
+      "rentabilidadDosAnos": 0,
+      "saldoFinal": 59627.25,
+      "valorUnidadInicial": 4313.50523349,
+      "valorUnidadFinal": 4322.43953861,
+      "valorSaldoInicialUnidades": 13.79298662676,
+      "valorSaldoFinalUnidades": 13.79481412461,
+      "valorTotalAdiciones": 0,
+      "valorTotalRetiros": 0,
+      "valorUtilidadBrutaDia": 0,
+      "valorPerdidaBrutaDia": 0
+    },
+    {
+      "idFondo": 9001266686,
+      "saldoTotal": 102617.74,
+      "saldoDisponibleSinPenalidad": 0,
+      "saldoDisponibleConPenalidad": 0,
+      "valorPenalidadTotal": 0,
+      "valorUnidad": 10954.094553,
+      "fechaRentabilidad": null,
+      "porcentajeRentabilidad": 0,
+      "rentabilidad30Dias": 0,
+      "rentabilidad60Dias": 0,
+      "rentabilidad90Dias": 0,
+      "rentabilidad180Dias": 0,
+      "rentabilidad365Dias": 0,
+      "rentabilidadAnoCorrido": 0,
+      "rentabilidadDosAnos": 0,
+      "saldoFinal": 105409.16,
+      "valorUnidadInicial": 10954.09455345,
+      "valorUnidadFinal": 11235.0350703,
+      "valorSaldoInicialUnidades": 9.36798011915,
+      "valorSaldoFinalUnidades": 9.38218344139,
+      "valorTotalAdiciones": 0,
+      "valorTotalRetiros": 0,
+      "valorUtilidadBrutaDia": 0,
+      "valorPerdidaBrutaDia": 0
+    },
+    {
+      "idFondo": 9006382089,
+      "saldoTotal": 220213.19,
+      "saldoDisponibleSinPenalidad": 0,
+      "saldoDisponibleConPenalidad": 0,
+      "valorPenalidadTotal": 0,
+      "valorUnidad": 16413.274171,
+      "fechaRentabilidad": null,
+      "porcentajeRentabilidad": 0,
+      "rentabilidad30Dias": 0,
+      "rentabilidad60Dias": 0,
+      "rentabilidad90Dias": 0,
+      "rentabilidad180Dias": 0,
+      "rentabilidad365Dias": 0,
+      "rentabilidadAnoCorrido": 0,
+      "rentabilidadDosAnos": 0,
+      "saldoFinal": 218408.9,
+      "valorUnidadInicial": 16413.27417133,
+      "valorUnidadFinal": 16356.23042832,
+      "valorSaldoInicialUnidades": 13.41677399045,
+      "valorSaldoFinalUnidades": 13.35325403718,
+      "valorTotalAdiciones": 0,
+      "valorTotalRetiros": 0,
+      "valorUtilidadBrutaDia": 0,
+      "valorPerdidaBrutaDia": 0
+    },
+    {
+      "idFondo": 9008652232,
+      "saldoTotal": 254345.76,
+      "saldoDisponibleSinPenalidad": 0,
+      "saldoDisponibleConPenalidad": 0,
+      "valorPenalidadTotal": 0,
+      "valorUnidad": 15034.082986,
+      "fechaRentabilidad": null,
+      "porcentajeRentabilidad": 0,
+      "rentabilidad30Dias": 0,
+      "rentabilidad60Dias": 0,
+      "rentabilidad90Dias": 0,
+      "rentabilidad180Dias": 0,
+      "rentabilidad365Dias": 0,
+      "rentabilidadAnoCorrido": 0,
+      "rentabilidadDosAnos": 0,
+      "saldoFinal": 264109.76,
+      "valorUnidadInicial": 15034.08298619,
+      "valorUnidadFinal": 15566.78596425,
+      "valorSaldoInicialUnidades": 16.91794306534,
+      "valorSaldoFinalUnidades": 16.96623571536,
+      "valorTotalAdiciones": 0,
+      "valorTotalRetiros": 0,
+      "valorUtilidadBrutaDia": 0,
+      "valorPerdidaBrutaDia": 0
+    }
+  ],
+  "listaMvtoAcumulado": null,
+  "listadoMovimientos": null,
+  "listadoRentabilidades": [
+    {
+      "idFondo": 9006382089,
+      "saldoTotal": 0,
+      "saldoDisponibleSinPenalidad": 0,
+      "saldoDisponibleConPenalidad": 0,
+      "valorPenalidadTotal": 0,
+      "valorUnidad": 0,
+      "fechaRentabilidad": "2019-10-31",
+      "porcentajeRentabilidad": -4.15,
+      "rentabilidad30Dias": -4.15,
+      "rentabilidad60Dias": -2.1,
+      "rentabilidad90Dias": 8.31,
+      "rentabilidad180Dias": 13.12,
+      "rentabilidad365Dias": 9.21,
+      "rentabilidadAnoCorrido": 8.81,
+      "rentabilidadDosAnos": 0,
+      "saldoFinal": 0,
+      "valorUnidadInicial": 0,
+      "valorUnidadFinal": 0,
+      "valorSaldoInicialUnidades": 0,
+      "valorSaldoFinalUnidades": 0,
+      "valorTotalAdiciones": null,
+      "valorTotalRetiros": null,
+      "valorUtilidadBrutaDia": null,
+      "valorPerdidaBrutaDia": null
+    },
+    {
+      "idFondo": 9003437219,
+      "saldoTotal": 0,
+      "saldoDisponibleSinPenalidad": 0,
+      "saldoDisponibleConPenalidad": 0,
+      "valorPenalidadTotal": 0,
+      "valorUnidad": 0,
+      "fechaRentabilidad": "2019-10-31",
+      "porcentajeRentabilidad": 49.16,
+      "rentabilidad30Dias": 49.16,
+      "rentabilidad60Dias": 22.13,
+      "rentabilidad90Dias": 25.25,
+      "rentabilidad180Dias": 11.64,
+      "rentabilidad365Dias": 15.26,
+      "rentabilidadAnoCorrido": 27.94,
+      "rentabilidadDosAnos": 0,
+      "saldoFinal": 0,
+      "valorUnidadInicial": 0,
+      "valorUnidadFinal": 0,
+      "valorSaldoInicialUnidades": 0,
+      "valorSaldoFinalUnidades": 0,
+      "valorTotalAdiciones": null,
+      "valorTotalRetiros": null,
+      "valorUtilidadBrutaDia": null,
+      "valorPerdidaBrutaDia": null
+    },
+    {
+      "idFondo": 9001266686,
+      "saldoTotal": 0,
+      "saldoDisponibleSinPenalidad": 0,
+      "saldoDisponibleConPenalidad": 0,
+      "valorPenalidadTotal": 0,
+      "valorUnidad": 0,
+      "fechaRentabilidad": "2019-10-31",
+      "porcentajeRentabilidad": 36.08,
+      "rentabilidad30Dias": 36.08,
+      "rentabilidad60Dias": 16.66,
+      "rentabilidad90Dias": 22.78,
+      "rentabilidad180Dias": 6.57,
+      "rentabilidad365Dias": 17.01,
+      "rentabilidadAnoCorrido": 24.77,
+      "rentabilidadDosAnos": 0,
+      "saldoFinal": 0,
+      "valorUnidadInicial": 0,
+      "valorUnidadFinal": 0,
+      "valorSaldoInicialUnidades": 0,
+      "valorSaldoFinalUnidades": 0,
+      "valorTotalAdiciones": null,
+      "valorTotalRetiros": null,
+      "valorUtilidadBrutaDia": null,
+      "valorPerdidaBrutaDia": null
+    },
+    {
+      "idFondo": 8300462682,
+      "saldoTotal": 0,
+      "saldoDisponibleSinPenalidad": 0,
+      "saldoDisponibleConPenalidad": 0,
+      "valorPenalidadTotal": 0,
+      "valorUnidad": 0,
+      "fechaRentabilidad": "2019-10-31",
+      "porcentajeRentabilidad": 2.55,
+      "rentabilidad30Dias": 2.55,
+      "rentabilidad60Dias": 1.27,
+      "rentabilidad90Dias": 3.59,
+      "rentabilidad180Dias": 4.02,
+      "rentabilidad365Dias": 3.85,
+      "rentabilidadAnoCorrido": 4,
+      "rentabilidadDosAnos": 0,
+      "saldoFinal": 0,
+      "valorUnidadInicial": 0,
+      "valorUnidadFinal": 0,
+      "valorSaldoInicialUnidades": 0,
+      "valorSaldoFinalUnidades": 0,
+      "valorTotalAdiciones": null,
+      "valorTotalRetiros": null,
+      "valorUtilidadBrutaDia": null,
+      "valorPerdidaBrutaDia": null
+    },
+    {
+      "idFondo": 8001476408,
+      "saldoTotal": 0,
+      "saldoDisponibleSinPenalidad": 0,
+      "saldoDisponibleConPenalidad": 0,
+      "valorPenalidadTotal": 0,
+      "valorUnidad": 0,
+      "fechaRentabilidad": "2019-10-31",
+      "porcentajeRentabilidad": 1.28,
+      "rentabilidad30Dias": 1.28,
+      "rentabilidad60Dias": 0.64,
+      "rentabilidad90Dias": 2.94,
+      "rentabilidad180Dias": 0,
+      "rentabilidad365Dias": 0,
+      "rentabilidadAnoCorrido": 0,
+      "rentabilidadDosAnos": 0,
+      "saldoFinal": 0,
+      "valorUnidadInicial": 0,
+      "valorUnidadFinal": 0,
+      "valorSaldoInicialUnidades": 0,
+      "valorSaldoFinalUnidades": 0,
+      "valorTotalAdiciones": null,
+      "valorTotalRetiros": null,
+      "valorUtilidadBrutaDia": null,
+      "valorPerdidaBrutaDia": null
+    },
+    {
+      "idFondo": 9008652232,
+      "saldoTotal": 0,
+      "saldoDisponibleSinPenalidad": 0,
+      "saldoDisponibleConPenalidad": 0,
+      "valorPenalidadTotal": 0,
+      "valorUnidad": 0,
+      "fechaRentabilidad": "2019-10-31",
+      "porcentajeRentabilidad": 52.75,
+      "rentabilidad30Dias": 52.75,
+      "rentabilidad60Dias": 23.59,
+      "rentabilidad90Dias": 23.41,
+      "rentabilidad180Dias": 11.89,
+      "rentabilidad365Dias": 18.97,
+      "rentabilidadAnoCorrido": 31.26,
+      "rentabilidadDosAnos": 0,
+      "saldoFinal": 0,
+      "valorUnidadInicial": 0,
+      "valorUnidadFinal": 0,
+      "valorSaldoInicialUnidades": 0,
+      "valorSaldoFinalUnidades": 0,
+      "valorTotalAdiciones": null,
+      "valorTotalRetiros": null,
+      "valorUtilidadBrutaDia": null,
+      "valorPerdidaBrutaDia": null
+    },
+    {
+      "idFondo": 8001942974,
+      "saldoTotal": 0,
+      "saldoDisponibleSinPenalidad": 0,
+      "saldoDisponibleConPenalidad": 0,
+      "valorPenalidadTotal": 0,
+      "valorUnidad": 0,
+      "fechaRentabilidad": "2019-10-31",
+      "porcentajeRentabilidad": 2.07,
+      "rentabilidad30Dias": 2.07,
+      "rentabilidad60Dias": 1.03,
+      "rentabilidad90Dias": 3.19,
+      "rentabilidad180Dias": 3.64,
+      "rentabilidad365Dias": 3.34,
+      "rentabilidadAnoCorrido": 3.47,
+      "rentabilidadDosAnos": 0,
+      "saldoFinal": 0,
+      "valorUnidadInicial": 0,
+      "valorUnidadFinal": 0,
+      "valorSaldoInicialUnidades": 0,
+      "valorSaldoFinalUnidades": 0,
+      "valorTotalAdiciones": null,
+      "valorTotalRetiros": null,
+      "valorUtilidadBrutaDia": null,
+      "valorPerdidaBrutaDia": null
+    },
+    {
+      "idFondo": 8001943632,
+      "saldoTotal": 0,
+      "saldoDisponibleSinPenalidad": 0,
+      "saldoDisponibleConPenalidad": 0,
+      "valorPenalidadTotal": 0,
+      "valorUnidad": 0,
+      "fechaRentabilidad": "2019-10-31",
+      "porcentajeRentabilidad": 2.55,
+      "rentabilidad30Dias": 2.55,
+      "rentabilidad60Dias": 1.27,
+      "rentabilidad90Dias": 3.44,
+      "rentabilidad180Dias": 3.81,
+      "rentabilidad365Dias": 3.57,
+      "rentabilidadAnoCorrido": 3.68,
+      "rentabilidadDosAnos": 0,
+      "saldoFinal": 0,
+      "valorUnidadInicial": 0,
+      "valorUnidadFinal": 0,
+      "valorSaldoInicialUnidades": 0,
+      "valorSaldoFinalUnidades": 0,
+      "valorTotalAdiciones": null,
+      "valorTotalRetiros": null,
+      "valorUtilidadBrutaDia": null,
+      "valorPerdidaBrutaDia": null
+    },
+    {
+      "idFondo": 9009892909,
+      "saldoTotal": 0,
+      "saldoDisponibleSinPenalidad": 0,
+      "saldoDisponibleConPenalidad": 0,
+      "valorPenalidadTotal": 0,
+      "valorUnidad": 0,
+      "fechaRentabilidad": "2019-10-31",
+      "porcentajeRentabilidad": 10.7,
+      "rentabilidad30Dias": 10.7,
+      "rentabilidad60Dias": 5.21,
+      "rentabilidad90Dias": 5.73,
+      "rentabilidad180Dias": 13.15,
+      "rentabilidad365Dias": 12.81,
+      "rentabilidadAnoCorrido": 16.9,
+      "rentabilidadDosAnos": 0,
+      "saldoFinal": 0,
+      "valorUnidadInicial": 0,
+      "valorUnidadFinal": 0,
+      "valorSaldoInicialUnidades": 0,
+      "valorSaldoFinalUnidades": 0,
+      "valorTotalAdiciones": null,
+      "valorTotalRetiros": null,
+      "valorUtilidadBrutaDia": null,
+      "valorPerdidaBrutaDia": null
+    },
+    {
+      "idFondo": 8300043201,
+      "saldoTotal": 0,
+      "saldoDisponibleSinPenalidad": 0,
+      "saldoDisponibleConPenalidad": 0,
+      "valorPenalidadTotal": 0,
+      "valorUnidad": 0,
+      "fechaRentabilidad": "2019-10-31",
+      "porcentajeRentabilidad": 14.2,
+      "rentabilidad30Dias": 14.2,
+      "rentabilidad60Dias": 6.86,
+      "rentabilidad90Dias": 5.23,
+      "rentabilidad180Dias": 0,
+      "rentabilidad365Dias": 0,
+      "rentabilidadAnoCorrido": 0,
+      "rentabilidadDosAnos": 0,
+      "saldoFinal": 0,
+      "valorUnidadInicial": 0,
+      "valorUnidadFinal": 0,
+      "valorSaldoInicialUnidades": 0,
+      "valorSaldoFinalUnidades": 0,
+      "valorTotalAdiciones": null,
+      "valorTotalRetiros": null,
+      "valorUtilidadBrutaDia": null,
+      "valorPerdidaBrutaDia": null
+    },
+    {
+      "idFondo": 0,
+      "saldoTotal": 0,
+      "saldoDisponibleSinPenalidad": 0,
+      "saldoDisponibleConPenalidad": 0,
+      "valorPenalidadTotal": 0,
+      "valorUnidad": 0,
+      "fechaRentabilidad": 1572639490454,
+      "porcentajeRentabilidad": 0,
+      "rentabilidad30Dias": 0,
+      "rentabilidad60Dias": 0,
+      "rentabilidad90Dias": 0,
+      "rentabilidad180Dias": 0,
+      "rentabilidad365Dias": 0,
+      "rentabilidadAnoCorrido": 0,
+      "rentabilidadDosAnos": 0,
+      "saldoFinal": 0,
+      "valorUnidadInicial": 0,
+      "valorUnidadFinal": 0,
+      "valorSaldoInicialUnidades": 0,
+      "valorSaldoFinalUnidades": 0,
+      "valorTotalAdiciones": null,
+      "valorTotalRetiros": null,
+      "valorUtilidadBrutaDia": null,
+      "valorPerdidaBrutaDia": null
+    }
+  ]
+}
+    </value>
+  </data>
+</root>

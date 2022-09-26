@@ -1,0 +1,42 @@
+﻿<Dictionary>
+  <Words>
+    <Unrecognized>
+      <Word></Word>
+    </Unrecognized>
+    <Recognized>
+      <Word>Evidente</Word>
+      <Word>Product</Word>
+      <Word>Aprobado</Word>
+      <Word>Rechazado</Word>
+      <Word>Login</Word>
+      <Word>Logout</Word>
+      <Word>Currency</Word>
+      <Word>Field</Word>
+      <Word>Simulator</Word>
+      <Word>Token</Word>
+      <Word>Claim</Word>
+      <Word>User</Word>
+      <Word>Role</Word>
+      <Word>Controller</Word>
+      <Word>Step</Word>
+	  <Word>Process</Word>
+	  <Word>Flow</Word>
+    </Recognized>
+    <Deprecated>
+      <Term PreferredAlternate=""></Term>
+    </Deprecated>
+    <Compound>
+      <Term CompoundAlternate=""></Term>
+    </Compound>
+    <DiscreteExceptions>
+      <Term></Term>
+    </DiscreteExceptions>
+  </Words>
+  <Acronyms>
+    <CasingExceptions>
+      <Acronym>JSON</Acronym>
+	  <Acronym>API</Acronym>
+	  <Acronym>COBIS</Acronym>
+    </CasingExceptions>
+  </Acronyms>
+</Dictionary>

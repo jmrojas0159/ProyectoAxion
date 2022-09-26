@@ -1,0 +1,15 @@
+
+--Status
+INSERT INTO Status (Name, CreatedDate) VALUES ('Activo', GETDATE())
+INSERT INTO Status (Name, CreatedDate) VALUES ('Inactivo', GETDATE())
+
+--TransactionType 'Ventas'
+INSERT INTO TransactionType (Name, CreatedDate, UpdateDate) values ('Ventas', GETDATE(), GETDATE())
+
+
+--User Default
+INSERT INTO [User] (IdStatus, FullName, Email, PhoneNumber, UserName,  Password, Identification, CreatedDate, UpdateDate) 
+values (1, 'Cristian Jose Rojas Camargo', 'cristianjoseroj@gmail.com', '3148491945', '1075292145', '269648a2b480598e284aadb24652b26d', '1075292145', GETDATE(), GETDATE())
+
+--Contraseña Encriptada
+--JuanPablo04%
